@@ -2,9 +2,7 @@ import os
 import re
 import requests
 import argparse
-import subprocess
-import multiprocessing
-
+import numpy as np
 JS_FETCHER_BASE_URL = "https://storage.googleapis.com/data.yt8m.org/2/j/v/"
 VIDEO_ID_FETCHER_BASE_URL = "https://storage.googleapis.com/data.yt8m.org/2/j/i/"
 METADATA_CSV_FILE = "vocabulary.csv"
@@ -36,19 +34,20 @@ def get_knowledge_graph_id(category_names):
 
 def download_video_using_youtube_dl(video_id, output_path):
     command = [
-        "youtube-dl",
-        "-f", "best",
-        "http://www.youtube.com/watch?v="+str(video_id),
-        "-o", output_path
+        "./yt-dlp_linux",
+        "-x",
+        "--audio-format", "mp3",
+        "\"http://www.youtube.com/watch?v=%s\"" % str(video_id),
+        "-o \"%s\"" % output_path
     ]
-    proc = subprocess.Popen(command, stderr=subprocess.PIPE, stdout=subprocess.PIPE)
-    subprocess_pid = proc.pid
-    try:
-        subprocess_out, subprocess_err = proc.communicate()
-    except:
-        return True, subprocess_err
-    else:
+    print(" ".join(command))
+    filenumber_before = len(os.listdir(args.output_dir))
+    os.system(" ".join(command))
+    filenumber_after = len(os.listdir(args.output_dir))
+    if filenumber_after > filenumber_before:
         return False, ""
+    else:
+        return True, "Error: file not downloaded"
 
 def run(args):
 
@@ -68,8 +67,9 @@ def run(args):
         return
 
     id_mapping_dict = get_knowledge_graph_id(selected_categories)
-
-    for key, value in id_mapping_dict.items():
+    items_todo = list(id_mapping_dict.items())
+    np.random.shuffle(items_todo)
+    for key, value in items_todo:
         print("Fetching videos for '{}' category".format(key))
         err1, js_data = make_get_request(JS_FETCHER_BASE_URL+value.split("/")[-1]+".js")
         if err1:
@@ -90,9 +90,16 @@ def run(args):
             video_ids_list.append(video_id)
 
         limit = 0
-
+        os.makedirs(args.output_dir + "/" + key.replace(" ","_"), exist_ok=True)
+        np.random.shuffle(video_ids_list)
         for vid in video_ids_list:
-            output_path = args.output_dir + key.replace(" ","_") + "##" +"%(id)s.%(ext)s"
+            output_path = args.output_dir + "/" + key.replace(" ","_") + "/"  + "%(id)s.%(ext)s"
+            output_path_placeholder = os.path.join(os.path.dirname(args.output_dir), "placeholder") + "/" + key.replace(" ","_") + "/"  + vid
+            if os.path.exists(output_path_placeholder):
+                continue
+            else:
+                with open(output_path_placeholder, "w") as f:
+                    f.write("")
             err, _ = download_video_using_youtube_dl(vid, output_path)
             if not err:
                 limit += 1
@@ -105,9 +112,11 @@ def run(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Download videos by category from YouTube-8M dataset")
     parser.add_argument("-sc", "--selected_categories", type=str, required=True, help="Input txt file containing categories seperated by new line.")
-    parser.add_argument("-o", "--output_dir", type=str, default="/tmp/yt8m_videos/", help="Output directory to store videos")
+    parser.add_argument("-o", "--output_dir", type=str, default="data/yt8m_audios", help="Output directory to store videos")
     parser.add_argument("-n", "--number_of_videos", type=int, default=10, help="Number of videos to be downloaded from each category.")
 
     args = parser.parse_args()
+
+    os.makedirs(args.output_dir, exist_ok=True)
 
     run(args)
