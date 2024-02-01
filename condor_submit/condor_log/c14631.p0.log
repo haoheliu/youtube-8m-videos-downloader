@@ -1,0 +1,49 @@
+000 (14631.000.000) 2024-02-01 02:57:28 Job submitted from host: <131.227.81.67:9618?addrs=131.227.81.67-9618&alias=aisurrey-condor01.surrey.ac.uk&noUDP&sock=schedd_1723_69c5>
+...
+040 (14631.000.000) 2024-02-01 02:57:34 Started transferring input files
+	Transferring to host: <131.227.80.190:9618?addrs=131.227.80.190-9618&alias=aisurrey10.surrey.ac.uk&noUDP&sock=slot1_1_5985_b94c_40817>
+...
+040 (14631.000.000) 2024-02-01 02:57:34 Finished transferring input files
+...
+001 (14631.000.000) 2024-02-01 02:57:35 Job executing on host: <131.227.80.190:9618?addrs=131.227.80.190-9618&alias=aisurrey10.surrey.ac.uk&noUDP&sock=startd_5781_dd17>
+...
+006 (14631.000.000) 2024-02-01 02:57:43 Image size of job updated: 125
+	27  -  MemoryUsage of job (MB)
+	27744  -  ResidentSetSize of job (KB)
+...
+006 (14631.000.000) 2024-02-01 03:02:44 Image size of job updated: 384
+	384  -  MemoryUsage of job (MB)
+	394168  -  ResidentSetSize of job (KB)
+...
+006 (14631.000.000) 2024-02-01 03:07:44 Image size of job updated: 388
+	388  -  MemoryUsage of job (MB)
+	398208  -  ResidentSetSize of job (KB)
+...
+006 (14631.000.000) 2024-02-01 03:17:45 Image size of job updated: 397
+	397  -  MemoryUsage of job (MB)
+	407232  -  ResidentSetSize of job (KB)
+...
+006 (14631.000.000) 2024-02-01 04:02:51 Image size of job updated: 404
+	404  -  MemoryUsage of job (MB)
+	414100  -  ResidentSetSize of job (KB)
+...
+006 (14631.000.000) 2024-02-01 04:37:55 Image size of job updated: 405
+	405  -  MemoryUsage of job (MB)
+	415524  -  ResidentSetSize of job (KB)
+...
+006 (14631.000.000) 2024-02-01 05:38:01 Image size of job updated: 407
+	407  -  MemoryUsage of job (MB)
+	416972  -  ResidentSetSize of job (KB)
+...
+006 (14631.000.000) 2024-02-01 06:03:04 Image size of job updated: 415
+	415  -  MemoryUsage of job (MB)
+	425388  -  ResidentSetSize of job (KB)
+...
+006 (14631.000.000) 2024-02-01 06:13:05 Image size of job updated: 417
+	417  -  MemoryUsage of job (MB)
+	427092  -  ResidentSetSize of job (KB)
+...
+006 (14631.000.000) 2024-02-01 06:43:07 Image size of job updated: 529
+	529  -  MemoryUsage of job (MB)
+	542496  -  ResidentSetSize of job (KB)
+...

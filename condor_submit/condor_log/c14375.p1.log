@@ -1,0 +1,44 @@
+000 (14375.001.000) 2024-01-21 15:16:41 Job submitted from host: <131.227.81.67:9618?addrs=131.227.81.67-9618&alias=aisurrey-condor01.surrey.ac.uk&noUDP&sock=schedd_1723_69c5>
+...
+040 (14375.001.000) 2024-01-21 15:16:42 Started transferring input files
+	Transferring to host: <131.227.80.190:9618?addrs=131.227.80.190-9618&alias=aisurrey10.surrey.ac.uk&noUDP&sock=slot1_1_5985_b94c_35720>
+...
+040 (14375.001.000) 2024-01-21 15:16:42 Finished transferring input files
+...
+001 (14375.001.000) 2024-01-21 15:16:43 Job executing on host: <131.227.80.190:9618?addrs=131.227.80.190-9618&alias=aisurrey10.surrey.ac.uk&noUDP&sock=startd_5781_dd17>
+...
+006 (14375.001.000) 2024-01-21 15:16:51 Image size of job updated: 125
+	26  -  MemoryUsage of job (MB)
+	26852  -  ResidentSetSize of job (KB)
+...
+006 (14375.001.000) 2024-01-21 15:21:52 Image size of job updated: 125
+	94  -  MemoryUsage of job (MB)
+	96324  -  ResidentSetSize of job (KB)
+...
+006 (14375.001.000) 2024-01-21 15:31:54 Image size of job updated: 125
+	94  -  MemoryUsage of job (MB)
+	96432  -  ResidentSetSize of job (KB)
+...
+006 (14375.001.000) 2024-01-21 15:36:55 Image size of job updated: 125
+	95  -  MemoryUsage of job (MB)
+	97660  -  ResidentSetSize of job (KB)
+...
+006 (14375.001.000) 2024-01-21 15:46:55 Image size of job updated: 125
+	104  -  MemoryUsage of job (MB)
+	106700  -  ResidentSetSize of job (KB)
+...
+004 (14375.001.000) 2024-01-21 16:09:38 Job was evicted.
+	(0) CPU times
+		Usr 0 00:34:06, Sys 0 00:01:25  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.00        1         1 
+	   Disk (KB)            : 51360         125    246844 
+	   GPUs                 :                 0         0 
+	   Memory (MB)          :   104       16384     16384 
+...
+009 (14375.001.000) 2024-01-21 16:09:38 Job was aborted.
+	via condor_rm (by user hl01486)
+...

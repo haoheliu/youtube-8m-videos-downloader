@@ -1,0 +1,36 @@
+000 (14376.000.000) 2024-01-21 15:44:03 Job submitted from host: <131.227.81.67:9618?addrs=131.227.81.67-9618&alias=aisurrey-condor01.surrey.ac.uk&noUDP&sock=schedd_1723_69c5>
+...
+040 (14376.000.000) 2024-01-21 15:44:03 Started transferring input files
+	Transferring to host: <131.227.80.180:9618?addrs=131.227.80.180-9618&alias=aisurrey05.surrey.ac.uk&noUDP&sock=slot1_2_5842_f7a7_42710>
+...
+040 (14376.000.000) 2024-01-21 15:44:03 Finished transferring input files
+...
+001 (14376.000.000) 2024-01-21 15:44:04 Job executing on host: <131.227.80.180:9618?addrs=131.227.80.180-9618&alias=aisurrey05.surrey.ac.uk&noUDP&sock=startd_5644_e49d>
+...
+006 (14376.000.000) 2024-01-21 15:44:13 Image size of job updated: 166
+	166  -  MemoryUsage of job (MB)
+	170132  -  ResidentSetSize of job (KB)
+...
+006 (14376.000.000) 2024-01-21 15:49:13 Image size of job updated: 265
+	265  -  MemoryUsage of job (MB)
+	271568  -  ResidentSetSize of job (KB)
+...
+006 (14376.000.000) 2024-01-21 15:59:14 Image size of job updated: 265
+	265  -  MemoryUsage of job (MB)
+	271736  -  ResidentSetSize of job (KB)
+...
+004 (14376.000.000) 2024-01-21 16:18:09 Job was evicted.
+	(0) CPU times
+		Usr 0 00:19:22, Sys 0 00:03:28  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.00        2         2 
+	   Disk (KB)            :   145         125    246844 
+	   GPUs                 :                 0         0 
+	   Memory (MB)          :   265       32768     32768 
+...
+009 (14376.000.000) 2024-01-21 16:18:09 Job was aborted.
+	via condor_rm (by user hl01486)
+...

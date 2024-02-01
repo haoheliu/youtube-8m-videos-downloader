@@ -1,0 +1,31 @@
+000 (14543.000.000) 2024-01-27 17:36:43 Job submitted from host: <131.227.81.67:9618?addrs=131.227.81.67-9618&alias=aisurrey-condor01.surrey.ac.uk&noUDP&sock=schedd_1723_69c5>
+...
+040 (14543.000.000) 2024-01-27 17:36:59 Started transferring input files
+	Transferring to host: <131.227.80.188:9618?addrs=131.227.80.188-9618&alias=aisurrey09.surrey.ac.uk&noUDP&sock=slot1_1_5975_ad8c_7538>
+...
+040 (14543.000.000) 2024-01-27 17:36:59 Finished transferring input files
+...
+001 (14543.000.000) 2024-01-27 17:37:00 Job executing on host: <131.227.80.188:9618?addrs=131.227.80.188-9618&alias=aisurrey09.surrey.ac.uk&noUDP&sock=startd_5772_b0bc>
+...
+040 (14543.000.000) 2024-01-27 17:37:03 Started transferring output files
+...
+040 (14543.000.000) 2024-01-27 17:37:03 Finished transferring output files
+...
+005 (14543.000.000) 2024-01-27 17:37:04 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	394  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+	394  -  Total Bytes Sent By Job
+	121432  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :      143      125    246844 
+	   GPUs                 :                 0         0 
+	   Memory (MB)          :             32768     32768 
+
+	Job terminated of its own accord at 2024-01-27T17:37:04Z.
+...

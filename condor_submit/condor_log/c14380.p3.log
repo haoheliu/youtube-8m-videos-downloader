@@ -1,0 +1,118 @@
+000 (14380.003.000) 2024-01-21 16:18:46 Job submitted from host: <131.227.81.67:9618?addrs=131.227.81.67-9618&alias=aisurrey-condor01.surrey.ac.uk&noUDP&sock=schedd_1723_69c5>
+...
+040 (14380.003.000) 2024-01-21 16:18:47 Started transferring input files
+	Transferring to host: <131.227.80.190:9618?addrs=131.227.80.190-9618&alias=aisurrey10.surrey.ac.uk&noUDP&sock=slot1_4_5985_b94c_35748>
+...
+040 (14380.003.000) 2024-01-21 16:18:47 Finished transferring input files
+...
+001 (14380.003.000) 2024-01-21 16:18:48 Job executing on host: <131.227.80.190:9618?addrs=131.227.80.190-9618&alias=aisurrey10.surrey.ac.uk&noUDP&sock=startd_5781_dd17>
+...
+006 (14380.003.000) 2024-01-21 16:18:56 Image size of job updated: 125
+	25  -  MemoryUsage of job (MB)
+	25836  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-21 16:23:56 Image size of job updated: 125
+	91  -  MemoryUsage of job (MB)
+	93328  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-21 16:28:56 Image size of job updated: 125
+	93  -  MemoryUsage of job (MB)
+	95912  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-21 16:33:56 Image size of job updated: 125
+	95  -  MemoryUsage of job (MB)
+	97376  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-21 17:59:07 Image size of job updated: 125
+	96  -  MemoryUsage of job (MB)
+	99212  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-21 18:49:12 Image size of job updated: 125
+	104  -  MemoryUsage of job (MB)
+	106660  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-21 23:39:36 Image size of job updated: 145
+	145  -  MemoryUsage of job (MB)
+	149268  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-21 23:44:37 Image size of job updated: 146
+	146  -  MemoryUsage of job (MB)
+	149512  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-22 00:04:39 Image size of job updated: 148
+	148  -  MemoryUsage of job (MB)
+	152168  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-22 02:04:52 Image size of job updated: 149
+	149  -  MemoryUsage of job (MB)
+	153204  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-22 08:35:24 Image size of job updated: 149
+	149  -  MemoryUsage of job (MB)
+	153392  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-22 11:55:46 Image size of job updated: 152
+	152  -  MemoryUsage of job (MB)
+	155852  -  ResidentSetSize of job (KB)
+...
+006 (14380.003.000) 2024-01-24 03:39:51 Image size of job updated: 155
+	155  -  MemoryUsage of job (MB)
+	158924  -  ResidentSetSize of job (KB)
+...
+004 (14380.003.000) 2024-01-24 16:28:53 Job was evicted.
+	(0) CPU times
+		Usr 1 22:41:43, Sys 0 02:01:27  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.00        1         1 
+	   Disk (KB)            : 105701         125    246844 
+	   GPUs                 :                  0         0 
+	   Memory (MB)          :    155       16384     16384 
+...
+040 (14380.003.000) 2024-01-24 16:32:48 Started transferring input files
+	Transferring to host: <131.227.80.180:9618?addrs=131.227.80.180-9618&alias=aisurrey05.surrey.ac.uk&noUDP&sock=slot1_3_5842_f7a7_44182>
+...
+040 (14380.003.000) 2024-01-24 16:32:48 Finished transferring input files
+...
+001 (14380.003.000) 2024-01-24 16:32:49 Job executing on host: <131.227.80.180:9618?addrs=131.227.80.180-9618&alias=aisurrey05.surrey.ac.uk&noUDP&sock=startd_5644_e49d>
+...
+004 (14380.003.000) 2024-01-27 16:42:51 Job was evicted.
+	(0) CPU times
+		Usr 1 23:02:32, Sys 0 01:57:53  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.00        1         1 
+	   Disk (KB)            : 105914      125000    493688 
+	   GPUs                 :                  0         0 
+	   Memory (MB)          :    155       16384     16384 
+...
+040 (14380.003.000) 2024-01-27 16:45:24 Started transferring input files
+	Transferring to host: <10.4.1.31:9618?addrs=10.4.1.31-9618&alias=aisurrey21.surrey.ac.uk&noUDP&sock=slot1_6_6043_970f_750>
+...
+040 (14380.003.000) 2024-01-27 16:45:24 Finished transferring input files
+...
+001 (14380.003.000) 2024-01-27 16:45:25 Job executing on host: <10.4.1.31:9618?addrs=10.4.1.31-9618&alias=aisurrey21.surrey.ac.uk&noUDP&sock=startd_5937_dddd>
+...
+004 (14380.003.000) 2024-01-30 16:45:29 Job was evicted.
+	(0) CPU times
+		Usr 1 20:02:19, Sys 0 01:58:39  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.00        1         1 
+	   Disk (KB)            : 111834      125000   8815825 
+	   GPUs                 :                  0         0 
+	   Memory (MB)          :    155       16384     16384 
+...
+040 (14380.003.000) 2024-01-30 16:47:37 Started transferring input files
+	Transferring to host: <10.4.1.36:9618?addrs=10.4.1.36-9618&alias=aisurrey26.surrey.ac.uk&noUDP&sock=slot1_8_9597_b45f_20099>
+...
+040 (14380.003.000) 2024-01-30 16:47:37 Finished transferring input files
+...
+001 (14380.003.000) 2024-01-30 16:47:38 Job executing on host: <10.4.1.36:9618?addrs=10.4.1.36-9618&alias=aisurrey26.surrey.ac.uk&noUDP&sock=startd_9364_80ec>
+...

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/mnt/fast/nobackup/scratch4weeks/hl01486/project/youtube-8m-videos-downloader/segment_audio.py", line 73, in <module>
+    np.random.shuffle(todo)
+  File "numpy/random/mtrand.pyx", line 4588, in numpy.random.mtrand.RandomState.shuffle
+TypeError: object of type 'generator' has no len()

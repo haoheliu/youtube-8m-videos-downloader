@@ -1,0 +1,54 @@
+000 (14379.000.000) 2024-01-21 16:15:10 Job submitted from host: <131.227.81.67:9618?addrs=131.227.81.67-9618&alias=aisurrey-condor01.surrey.ac.uk&noUDP&sock=schedd_1723_69c5>
+...
+040 (14379.000.000) 2024-01-21 16:15:10 Started transferring input files
+	Transferring to host: <131.227.80.186:9618?addrs=131.227.80.186-9618&alias=aisurrey08.surrey.ac.uk&noUDP&sock=slot1_1_5916_1b6a_43331>
+...
+040 (14379.000.000) 2024-01-21 16:15:10 Finished transferring input files
+...
+001 (14379.000.000) 2024-01-21 16:15:11 Job executing on host: <131.227.80.186:9618?addrs=131.227.80.186-9618&alias=aisurrey08.surrey.ac.uk&noUDP&sock=startd_5675_280d>
+...
+006 (14379.000.000) 2024-01-21 16:15:20 Image size of job updated: 125
+	78  -  MemoryUsage of job (MB)
+	80824  -  ResidentSetSize of job (KB)
+...
+006 (14379.000.000) 2024-01-21 16:20:20 Image size of job updated: 256
+	256  -  MemoryUsage of job (MB)
+	262700  -  ResidentSetSize of job (KB)
+...
+006 (14379.000.000) 2024-01-21 16:25:21 Image size of job updated: 304
+	304  -  MemoryUsage of job (MB)
+	311616  -  ResidentSetSize of job (KB)
+...
+006 (14379.000.000) 2024-01-21 16:45:24 Image size of job updated: 311
+	311  -  MemoryUsage of job (MB)
+	318828  -  ResidentSetSize of job (KB)
+...
+006 (14379.000.000) 2024-01-21 16:50:24 Image size of job updated: 349
+	349  -  MemoryUsage of job (MB)
+	357580  -  ResidentSetSize of job (KB)
+...
+006 (14379.000.000) 2024-01-23 20:50:40 Image size of job updated: 350
+	350  -  MemoryUsage of job (MB)
+	359188  -  ResidentSetSize of job (KB)
+...
+006 (14379.000.000) 2024-01-24 05:46:34 Image size of job updated: 350
+	350  -  MemoryUsage of job (MB)
+	359220  -  ResidentSetSize of job (KB)
+...
+006 (14379.000.000) 2024-01-24 12:22:12 Image size of job updated: 3509
+	3509  -  MemoryUsage of job (MB)
+	3593784  -  ResidentSetSize of job (KB)
+...
+006 (14379.000.000) 2024-01-24 13:57:24 Image size of job updated: 25638
+	25638  -  MemoryUsage of job (MB)
+	26253708  -  ResidentSetSize of job (KB)
+...
+007 (14379.000.000) 2024-01-24 13:57:48 Shadow exception!
+	Error from slot1@aisurrey08.surrey.ac.uk: Docker job has gone over memory limit of 32768 Mb
+	0  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+...
+012 (14379.000.000) 2024-01-24 13:57:48 Job was held.
+	Error from slot1@aisurrey08.surrey.ac.uk: Docker job has gone over memory limit of 32768 Mb
+	Code 34 Subcode 0
+...

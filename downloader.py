@@ -69,6 +69,7 @@ def run(args):
     id_mapping_dict = get_knowledge_graph_id(selected_categories)
     items_todo = list(id_mapping_dict.items())
     np.random.shuffle(items_todo)
+
     for key, value in items_todo:
         print("Fetching videos for '{}' category".format(key))
         err1, js_data = make_get_request(JS_FETCHER_BASE_URL+value.split("/")[-1]+".js")
@@ -77,7 +78,6 @@ def run(args):
             return
         js_data = eval(js_data.lstrip('p("'+value.split("/")[-1]+'",').rstrip(');'))
         tf_records_ids = js_data[2:]
-        tf_records_ids = tf_records_ids[:args.number_of_videos + 50] # keep more ids
         tf_records_ids_first_two_chars = [i[:2] for i in tf_records_ids]
 
         video_ids_list = []
@@ -91,6 +91,7 @@ def run(args):
 
         limit = 0
         os.makedirs(args.output_dir + "/" + key.replace(" ","_"), exist_ok=True)
+        os.makedirs(os.path.join(os.path.dirname(args.output_dir), "placeholder") + "/" + key.replace(" ","_"), exist_ok=True)
         np.random.shuffle(video_ids_list)
         for vid in video_ids_list:
             output_path = args.output_dir + "/" + key.replace(" ","_") + "/"  + "%(id)s.%(ext)s"
@@ -106,14 +107,12 @@ def run(args):
                 print("Video id: {} downloaded successfully.".format(vid))
             else:
                 print("Video id: {} download unsuccessful.".format(vid))
-            if limit == args.number_of_videos:
-                break
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Download videos by category from YouTube-8M dataset")
     parser.add_argument("-sc", "--selected_categories", type=str, required=True, help="Input txt file containing categories seperated by new line.")
     parser.add_argument("-o", "--output_dir", type=str, default="data/yt8m_audios", help="Output directory to store videos")
-    parser.add_argument("-n", "--number_of_videos", type=int, default=10, help="Number of videos to be downloaded from each category.")
+    parser.add_argument("-n", "--number_of_videos", type=int, default=1000000, help="Number of videos to be downloaded from each category.")
 
     args = parser.parse_args()
 

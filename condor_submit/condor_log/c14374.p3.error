@@ -1,0 +1,3 @@
+usage: downloader.py [-h] -sc SELECTED_CATEGORIES [-o OUTPUT_DIR]
+                     [-n NUMBER_OF_VIDEOS]
+downloader.py: error: the following arguments are required: -sc/--selected_categories

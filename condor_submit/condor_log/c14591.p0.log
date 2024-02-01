@@ -1,0 +1,44 @@
+000 (14591.000.000) 2024-01-31 06:17:53 Job submitted from host: <131.227.81.67:9618?addrs=131.227.81.67-9618&alias=aisurrey-condor01.surrey.ac.uk&noUDP&sock=schedd_1723_69c5>
+...
+040 (14591.000.000) 2024-01-31 06:18:12 Started transferring input files
+	Transferring to host: <131.227.80.174:9618?addrs=131.227.80.174-9618&alias=aisurrey02.surrey.ac.uk&noUDP&sock=slot1_1_7164_6f9c_34078>
+...
+040 (14591.000.000) 2024-01-31 06:18:12 Finished transferring input files
+...
+001 (14591.000.000) 2024-01-31 06:18:13 Job executing on host: <131.227.80.174:9618?addrs=131.227.80.174-9618&alias=aisurrey02.surrey.ac.uk&noUDP&sock=startd_7065_94b1>
+...
+006 (14591.000.000) 2024-01-31 06:18:22 Image size of job updated: 125
+	26  -  MemoryUsage of job (MB)
+	27308  -  ResidentSetSize of job (KB)
+...
+006 (14591.000.000) 2024-01-31 06:23:22 Image size of job updated: 350
+	350  -  MemoryUsage of job (MB)
+	358916  -  ResidentSetSize of job (KB)
+...
+006 (14591.000.000) 2024-01-31 06:28:23 Image size of job updated: 402
+	402  -  MemoryUsage of job (MB)
+	412568  -  ResidentSetSize of job (KB)
+...
+006 (14591.000.000) 2024-01-31 06:38:24 Image size of job updated: 428
+	428  -  MemoryUsage of job (MB)
+	439092  -  ResidentSetSize of job (KB)
+...
+006 (14591.000.000) 2024-01-31 06:58:25 Image size of job updated: 457
+	457  -  MemoryUsage of job (MB)
+	468064  -  ResidentSetSize of job (KB)
+...
+004 (14591.000.000) 2024-02-01 02:29:09 Job was evicted.
+	(0) CPU times
+		Usr 0 18:55:12, Sys 0 03:04:37  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.00        2         2 
+	   Disk (KB)            :  2238         125    246844 
+	   GPUs                 :                 0         0 
+	   Memory (MB)          :   457       32768     32768 
+...
+009 (14591.000.000) 2024-02-01 02:29:09 Job was aborted.
+	via condor_rm (by user hl01486)
+...
